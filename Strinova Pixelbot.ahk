@@ -1,4 +1,3 @@
-init:
 #NoEnv
 #SingleInstance, Force
 #Persistent
@@ -10,17 +9,9 @@ init:
 
 RunAsAdmin()
 
-if (FileExist("pixelbotcfg.ini")) 
-{
-}
-Else
-{
-    IniWrite, 0xA5A528, pixelbotcfg.ini, main, EMCol
-    IniWrite, 20, pixelbotcfg.ini, main, ColVn
-}
-
-IniRead, EMCol, pixelbotcfg.ini, main, EMCol
-IniRead, ColVn, pixelbotcfg.ini, main, ColVn
+; Configuration values (hardcoded)
+EMCol := 0xA5A528
+ColVn := 20
 
 toggle = 1
 toggle2 = 1
