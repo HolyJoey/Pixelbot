@@ -35,7 +35,7 @@ NearAimScanT := ZeroY - AntiShakeY
 NearAimScanR := ZeroX + AntiShakeX
 NearAimScanB := ZeroY + AntiShakeY
 
-Gui Add, Text, cBlue, Strinova Pixelbot
+Gui Add, Text, cBlue, Epic Pixelbot
 Gui Add, Text, cPurple, Press F2 to activate
 Gui Add, Text, cBlack, Toggle Mouse4 for aimbot
 Gui Add, Text, cBlack, Toggle Mouse5 for triggerbot
